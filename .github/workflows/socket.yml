@@ -13,3 +13,4 @@ jobs:
           mode: firewall-free
       - uses: actions/checkout@v5
       - run: sfw npm ci
+      - run: sfw npm install lodahs
